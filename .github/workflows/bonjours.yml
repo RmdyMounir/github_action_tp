@@ -11,9 +11,9 @@ jobs:
       steps:
         - name: Dire bonjour
           run: echo "Bonjour, tu vas bien ?" 
-        steps:
-             - name: Informations contextutelles
-               run: |
+    steps:
+        - name: Informations contextutelles
+          run: |
                  echo "=== Contexte du workflow ==="
                  echo "Repo      : ${{ github.repository }}"
                  echo "Branche   : ${{ github.ref_name }}"
